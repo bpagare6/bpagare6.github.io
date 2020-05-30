@@ -1,0 +1,1118 @@
+@font-face {
+    font-family: 'Calibre';
+    src: url( './fonts/Calibre/Calibre-Light.woff2') format('woff2'), url('./fonts/Calibre/Calibre-Light.woff') format('woff'),
+        url('./fonts/Calibre/Calibre-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Calibre';
+    src: url('./fonts/Calibre/Calibre-LightItalic.woff2') format('woff2'),
+        url('./fonts/Calibre/Calibre-LightItalic.woff') format('woff'),
+        url('./fonts/Calibre/Calibre-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Calibre';
+    src: url('./fonts/Calibre/Calibre-Regular.woff2') format('woff2'), url('./fonts/Calibre/Calibre-Regular.woff') format('woff'),
+        url('./fonts/Calibre/Calibre-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Calibre';
+    src: url('./fonts/Calibre/Calibre-RegularItalic.woff2') format('woff2'),
+        url('./fonts/Calibre/Calibre-RegularItalic.woff') format('woff'),
+        url('./fonts/Calibre/Calibre-RegularItalic.tff') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Calibre';
+    src: url('./fonts/Calibre/Calibre-Medium.woff2') format('woff2'), url('./fonts/Calibre/Calibre-Medium.woff') format('woff'),
+        url('./fonts/Calibre/Calibre-Medium.tff') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Calibre';
+    src: url('./fonts/Calibre/Calibre-MediumItalic.woff2') format('woff2'),
+        url('./fonts/Calibre/Calibre-MediumItalic.woff') format('woff'),
+        url('./fonts/Calibre/Calibre-MediumItalic.tff') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Calibre';
+    src: url('./fonts/Calibre/Calibre-Semibold.woff2') format('woff2'), url('./fonts/Calibre/Calibre-Semibold.woff') format('woff'),
+        url('./fonts/Calibre/Calibre-Semibold.tff') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Calibre';
+    src: url('fonts/Calibre/Calibre-SemiboldItalic.woff2') format('woff2'),
+        url('fonts/Calibre/Calibre-SemiboldItalic.woff') format('woff'),
+        url('fonts/Calibre/Calibre-SemiboldItalic.tff') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'SF Mono';
+    src: url('./fonts/SFMono/SFMono-Regular.woff2') format('woff2'), url('./fonts/SFMono/SFMono-Regular.woff') format('woff'),
+        url('./fonts/SFMono/SFMono-Regular.tff') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Mono';
+    src: url('./fonts/SFMono/SFMono-RegularItalic.woff2') format('woff2'),
+        url('./fonts/SFMono/SFMono-RegularItalic.woff') format('woff'),
+        url('./fonts/SFMono/SFMono-RegularItalic.tff') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'SF Mono';
+    src: url('./fonts/SFMono/SFMono-Medium.woff2') format('woff2'), url('./fonts/SFMono/SFMono-Medium.woff') format('woff'),
+        url('./fonts/SFMono/SFMono-Medium.tff') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Mono';
+    src: url('./fonts/SFMono/SFMono-MediumItalic.woff2') format('woff2'),
+        url('./fonts/SFMono/SFMono-MediumItalic.woff') format('woff'),
+        url('./fonts/SFMono/SFMono-MediumItalic.tff') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'SF Mono';
+    src: url('./fonts/SFMono/SFMono-Semibold.woff2') format('woff2'), url('./fonts/SFMono/SFMono-Semibold.woff') format('woff'),
+        url('./fonts/SFMono/SFMono-Semibold.tff') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Mono';
+    src: url('./fonts/SFMono/SFMono-SemiboldItalic.woff2') format('woff2'),
+        url('./fonts/SFMono/SFMono-SemiboldItalic.woff') format('woff'),
+        url('./fonts/SFMono/SFMono-SemiboldItalic.tff') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+html {
+    width: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    color: rgb(136, 146, 176);
+    line-height: 1.3;
+    background-color: #0a192f;
+    font-family: 'Calibre', San Francisco, SF Pro Text, -apple-system, system-ui, BlinkMacSystemFont, Roboto, Helvetica Neue, Segoe UI, Arial, sans-serif;
+}
+
+body.blur {
+    overflow: hidden;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    color: #ccd6f6;
+    margin: 0 0 10px 0;
+}
+
+p {
+    margin: 0px 0px 15px;
+    font-size: 20px;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+/* Main Container */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Main Navbar */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    padding: 0px 50px;
+    background-color: #0a192f;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    z-index: 11;
+    filter: none !important;
+    pointer-events: auto !important;
+    user-select: auto !important;
+    width: 100%;
+    height: 100px;
+    box-shadow: none;
+    transform: translateY(0px);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', 'Lucida Console', Monaco, monospace;
+    color: #ccd6f6;
+    z-index: 12;
+}
+/* Main Logo */
+.main-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-logo a {
+    display: block;
+    color: #64ffda;
+}
+.main-logo a:hover svg, 
+.main-logo a:focus svg {
+    fill: rgba(100, 255, 218, 0.07);
+}
+.main-logo a svg {
+    width: 42px;
+    height: 42px;
+    fill: none;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    user-select: none;
+}
+/* Hamburger Icon */
+.hamburger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+    margin: 0 -12px 0 0;
+    padding: 15px;
+    cursor: pointer;
+    transition-timing-function: linear;
+    transition-duration: 0.15s;
+    transition-property: opacity, filter;
+    text-transform: none;
+    color: inherit;
+    border: 0;
+    background-color: transparent;
+    display: none;
+}
+.hamburger-box {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 24px;
+}
+.hamburger-inner {
+    background-color: #64ffda;
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    border-radius: 3px;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transition-duration: 0.22s;
+    transition-property: transform;
+    transition-delay: 0s;
+    transform: rotate(0deg);
+    transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+.hamburger-inner:before,
+.hamburger-inner:after {
+    content: '';
+    display: block;
+    background-color: #64ffda;
+    position: absolute;
+    left: auto;
+    right: 0;
+    width: 30px;
+    height: 2px;
+    transition-timing-function: ease;
+    transition-duration: 0.15s;
+    transition-property: transform;
+    border-radius: 4px;
+}
+.hamburger-inner:before {
+    width: 120%;
+    top: -10px;
+    opacity: 1;
+    transition: top 0.1s ease-in 0.25s, opacity 0.1s ease-in;
+}
+.hamburger-inner:after {
+    width: 80%;
+    bottom: -10px;
+    transform: rotate(0deg);
+    transition: bottom 0.1s ease-in 0.25s, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+.hamburger.menuOpen .hamburger-box .hamburger-inner{
+    transition-delay: 0.12s;
+    transform: rotate(225deg);
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); 
+}
+.hamburger.menuOpen .hamburger-box .hamburger-inner:before{
+    width: 100%;
+    top: 0px;
+    opacity: 0;
+    transition: top 0.1s ease-out, opacity 0.1s ease-out 0.12s;
+}
+.hamburger.menuOpen .hamburger-box .hamburger-inner:after{
+    width: 100%;
+    top: 0px;
+    transform: rotate(-90deg);
+    transition: bottom 0.1s ease-out, transform 0.22s cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s;
+}
+/* Nav Links */
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+.nav-links ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.nav-links ul li {
+    margin: 0 10px;
+    position: relative;
+    font-size: 18px;
+}
+.nav-links ul li:before {
+    text-align: right;
+    color: #64ffda;
+    font-size: 14px;
+}
+.nav-links ul li a {
+    padding: 12px 10px;
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    color: inherit;
+    position: relative;
+    cursor: pointer;
+}
+.nav-links ul li a:hover,
+.nav-links ul li a:active,
+.nav-links ul li a:focus {
+    color: #64ffda;
+    outline: 0;
+}
+.mobile-nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    outline: 0;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    transform: translateX(100vw);
+    visibility: hidden;
+    display: none;
+}
+.mobile-nav.menuOpen {
+    visibility: visible;
+    transform: translateX(0vw);
+}
+.mobile-nav aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #172a45;
+    padding: 50px;
+    width: 50vw;
+    height: 100%;
+    position: relative;
+    right: 0;
+    margin-left: auto;
+    font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', 'Lucida Console', Monaco, monospace;
+    box-shadow: -10px 0px 30px -15px rgba(2, 12, 27, 0.7);
+}
+.mobile-nav aside nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    color: #ccd6f6;
+}
+.mobile-nav aside nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+.mobile-nav aside nav ul li {
+    margin: 0 auto 20px;
+    position: relative;
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+.mobile-nav aside nav ul li:before {
+    display: block;
+    color: #64ffda;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.mobile-nav aside nav ul li a {
+    text-decoration: none;
+    color: #ccd6f6;
+    padding: 3px 20px 20px;
+    width: 100%;
+}
+.mobile-nav aside nav ul li a:hover,
+.mobile-nav aside nav ul li a:focus {
+    color: #64ffda;
+}
+
+/* Social */
+.social {
+    width: 40px;
+    position: fixed;
+    bottom: 0;
+    left: 40px;
+    right: auto;
+    z-index: 10;
+    color: #a8b2d1;
+}
+.social ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.social ul:after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0 auto;
+    background-color: #a8b2d1;
+}
+.social ul li {
+    margin-bottom: 20px;
+}
+.social ul li a {
+    padding: 10px;
+}
+.social ul li a svg:hover,
+.social ul li a svg:focus {
+    fill: #64ffda;
+    transform: translateY(-3px);
+}
+.social ul li a svg {
+    fill: #a8b2d1;
+    width: 20px;
+    height: 20px;
+}
+
+/* Email */
+.email {
+    width: 40px;
+    position: fixed;
+    bottom: 0;
+    left: auto;
+    right: 40px;
+    z-index: 10;
+    color: #a8b2d1;
+}
+.email div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.email:after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0 auto;
+    background-color: #a8b2d1;
+}
+.email div a {
+    color: #a8b2d1;
+    text-decoration: none;
+    font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', 'Lucida Console', Monaco, monospace;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    writing-mode: vertical-rl;
+    margin: 20px auto;
+    padding: 10px;
+}
+.email div a:hover,
+.email div a:focus {
+    color: #64ffda;
+    transform: translateY(-3px);
+}
+
+/* All Content Sections */
+.main {
+    z-index: 9;
+    padding: 0 150px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1600px;
+    min-height: 100vh;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.main.fillHeight {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+section {
+    margin: 0 auto;
+    padding: 150px 0;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+section:after,
+section:before {
+    box-sizing: inherit;
+}
+.main-page h1 {
+    color: #64ffda;
+    margin: 0 0 20px 3px;
+    font-size: 16px;
+    font-family: 'SF Mono', Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace;
+    font-weight: normal;
+}
+.main-page h2 {
+    font-size: 80px;
+    line-height: 1.1;
+    margin: 0;
+}
+.main-page h3 {
+    font-size: 80px;
+    line-height: 1.1;
+    color: #8892b0;
+}
+.main-page .description {
+    margin-top: 25px;
+    width: 50%;
+    max-width: 500px;
+}
+.main-page .my-buttons {
+    display: flex;
+    margin-top: 50px;
+}
+.main-page .my-buttons .resume-button {
+    margin-right: 40px;
+}
+.main-page .my-buttons .contact-button,
+.main-page .my-buttons .resume-button {
+    color: #64ffda;
+    background-color: transparent;
+    border: 1px solid #64ffda;
+    border-radius: 3px;
+    padding: 1.25rem 1.75rem;
+    font-size: 15px;
+    font-family: 'SF Mono', Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    /* margin-top: 50px; */
+}
+.main-page .my-buttons .contact-button a,
+.main-page .my-buttons .resume-button a {
+    text-decoration: none;
+    color:rgb(100, 255, 218);
+}
+.main-page .my-buttons .contact-button:hover,
+.main-page .my-buttons .contact-button:focus,
+.main-page .my-buttons .contact-button:active,
+.main-page .my-buttons .resume-button:hover,
+.main-page .my-buttons .resume-button:focus,
+.main-page .my-buttons .resume-button:active {
+    background-color: rgba(100, 255, 218, 0.07);
+}
+.main-page .my-buttons .contact-button:after,
+.main-page .my-buttons .resume-button:after {
+    display: none !important;
+}
+
+/* Skills Page */
+.skills {
+    margin: 0 auto;
+    padding: 150px 0;
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#skills-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    white-space: nowrap;
+    font-size: 38px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #64ffda;
+}
+#skills-heading:before {
+    margin-right: 10px;
+    font-family: 'SF Mono', Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace;
+    font-weight: normal;
+    color: #64ffda;
+    font-size: 12px;
+    position: relative;
+    bottom: 4px;
+}
+.skills .skills-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills .card {
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 400px;
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #172a45;
+    text-align: center;
+    border-radius: 20px;
+    padding-bottom: 15px;
+    transition: transform .2s;
+}
+.skills .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.4);
+}
+.skills .card ul {
+    padding: 0;
+    list-style: none;
+}
+.skills .card h1 {
+    color: #e6f1ff;
+}
+.skills .card ul li {
+    color: #ccd6f6;
+    font-size: 20px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.skills .card ul li i {
+    vertical-align: middle;
+    padding-right: 10px;
+    font-size: 22px;
+}
+#django {
+    font-size: 38px;
+}
+
+/* Experience Page */
+.experience {
+    margin: 0 auto;
+    padding: 150px 0;
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.experience div {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+.experience div ul {
+    display: flex;
+    position: relative;
+    width: max-content;
+    z-index: 3;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.experience div ul li {
+    width: 280px;
+    outline: 0;
+}
+.experience div ul li button {
+    border: 0;
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    color: inherit;
+    position: relative;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: transparent;
+    height: 42px;
+    padding: 0 20px 2px;
+    border-bottom: 2px solid #303C55;
+    text-align: center;
+    white-space: nowrap;
+    font-family: 'SF Mono', 'Fira Code', Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace;
+    font-size: 18px;
+    color: #8892b0;
+}
+.experience div ul li button:hover,
+.experience div ul li button:focus,
+.experience div ul li button:active {
+    background-color: #172a45;
+    color: #64ffda;
+    outline: 0;
+}
+.experience div ul li button.active {
+    background-color: #172a45;
+    color: #64ffda;
+    outline: 0;
+    border-bottom-color: #64ffda;
+}
+.details-experience {
+    width: 100%;
+    padding-top: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none !important;
+}
+.details-experience.active {
+    display: flex !important;
+}
+.details-experience .img-div {
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.details-experience img {
+    max-width: 200px;
+    max-height: 100px;
+}
+.details-experience h2 {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-size: 28px;
+}
+.details-experience h2 span {
+    color: #64ffda;
+    font-size: 24px;
+}
+.details-experience span {
+    font-size: 16px;
+    margin-top: -10px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.details-experience div {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.details-experience div ul {
+    padding-top: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.details-experience div ul li {
+    width: 100%;
+    font-size: 19px;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 10px;
+}
+.details-experience div ul li:before {
+    content: '▹';
+    position: absolute;
+    left: 0;
+    color: #64ffda;
+}
+
+/* Project Page */
+.projects {
+    margin: 0 auto;
+    padding: 150px 0;
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Contact Me Page */
+.contact-me {
+    margin: 0 auto;
+    padding: 150px 0;
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Footer */
+footer {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    text-align: center;
+    height: auto;
+    min-height: 70px;
+}
+footer .social-footer {
+    color: #a8b2d1;
+    width: 100%;
+    max-width: 270px;
+    margin: 0 auto 10px;
+    display: none;
+}
+footer .social-footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+footer .social-footer ul li a {
+    padding: 10px;
+}
+footer .social-footer ul li a svg {
+    fill: #a8b2d1;
+    width: 20px;
+    height: 20px;
+}
+footer .footer-text {
+    color: #a8b2d1;
+    font-family: 'SF Mono', Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace;
+    font-size: 14px;
+    line-height: 1;
+}
+footer .footer-text a {
+    cursor: pointer;
+    color: #a8b2d1;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+/* Big Desktop */
+@media only screen and (max-width: 1440px) {
+    #skills-heading {
+        width: 20%;
+    }
+    .skills .card {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 320px;
+        padding: 20px;
+    }
+    .skills .card h1 {
+        font-size: 28px;
+    }
+    .details-experience div ul {
+        width: 60%;
+    }
+    .details-experience div ul li {
+        width: 100%;
+    }
+}
+
+/* Desktop */
+@media only screen and (max-width: 1000px) {
+    header {
+        padding: 0 40px;
+    }
+    .social {
+        right: 25px;
+    }
+    .email {
+        right: 25px;
+    }
+    .main {
+        padding: 0 100px;
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+    .main.fillHeight {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .main-page h1 {
+        font-size: 14px;
+    }
+    .main-page h2 {
+        font-size: 70px;
+    }
+    .main-page h3 {
+        font-size: 70px;
+    }
+    #skills-heading {
+        width: 30%;
+    }
+    .skills .skills-inner {
+        display: block;
+    }
+    .skills .card {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .skills .card h1 {
+        font-size: 28px;
+    }
+    .experience div ul li {
+        width: 210px;
+    }
+    .experience div ul li button {
+        font-size: 14px;
+        align-items: center;
+    }
+    .details-experience div ul {
+        width: 80%;
+    }
+    .details-experience div ul li {
+        width: 100%;
+    }
+}
+
+/* Tablet */
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 0 25px;
+    }
+    .hamburger {
+        display: flex;
+    }
+    .nav-links {
+        display: none;
+    }
+    .mobile-nav {
+        display: block;
+    }
+    .social {
+        display: none;
+    }
+    .email {
+        display: none;
+    }
+    .main {
+        padding: 0 50px;
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+    .main.fillHeight {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    section {
+        padding: 100px 0;
+        padding-top: 150px;
+    }
+    .main-page h1 {
+        font-size: 13px;
+    }
+    .main-page h2 {
+        font-size: 60px;
+    }
+    .main-page h3 {
+        font-size: 60px;
+    }
+    .main-page .description {
+        width: 100%;
+    }
+    .main-page .my-buttons .resume-button {
+        margin-right: 30px;
+    }
+    #skills-heading {
+        width: 30%;
+    }
+    .skills .skills-inner {
+        display: block;
+    }
+    .skills .card {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .skills .card h1 {
+        font-size: 28px;
+    }
+    .experience div ul li {
+        width: 210px;
+    }
+    .experience div ul li button {
+        font-size: 14px;
+        align-items: center;
+    }
+    .details-experience div ul {
+        width: 75%;
+    }
+    .details-experience div ul li {
+        width: 100%;
+    }
+    footer .social-footer {
+        display: block;
+    }
+}
+
+/* Thone */
+@media only screen and (max-width: 600px) {
+    .mobile-nav aside {
+        padding: 25px;
+    }
+    .mobile-nav aside nav ul li {
+        margin: 0 auto 10px;
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+/* Phablet */
+@media only screen and (max-width: 480px) {
+    .mobile-nav aside {
+        width: 75vw;
+    }
+    .main {
+        padding: 0 25px;
+        padding-top: 125px;
+        padding-bottom: 125px;
+    }
+    .main.fillHeight {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .main-page h2 {
+        font-size: 50px;
+    }
+    .main-page h3 {
+        font-size: 50px;
+    }
+    #skills-heading {
+        width: 60%;
+    }
+    .skills .card {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .skills .card h1 {
+        font-size: 28px;
+    }
+    .experience div {
+        display: none;
+    }
+    .experience div ul {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .experience div ul li {
+        width: 40%;
+    }
+    .experience div ul li button {
+        font-size: 15px;
+        border: 0;
+        align-items: center;
+    }
+    .details-experience {
+        width: 100%;
+        display: flex !important;
+    }
+    .details-experience h2 {
+        font-size: 20px;
+    }
+    .details-experience h2 span {
+        font-size: 18px;
+    }
+    .details-experience div {
+        display: flex;
+    }
+    .details-experience .img-div {
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+    .details-experience div ul li {
+        width: 100%;
+    }
+}
+
+/* Phone */
+@media only screen and (max-width: 376px) {
+    .main-page h2 {
+        font-size: 40px;
+    }
+    .main-page h3 {
+        font-size: 40px;
+    }
+}
+
+/* Tiny */
+@media only screen and (max-width: 330px) {
+    .mobile-nav aside {
+        padding: 10px;
+    }
+    .mobile-nav aside nav ul li {
+        font-size: 12px;
+    }
+}

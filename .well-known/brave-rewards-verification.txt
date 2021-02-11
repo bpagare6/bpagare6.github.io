@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: bpagare6.github.io
+Token: 762965ae5a0064c42c9399676f305a33d05c966b1202ea4b0679a76c603e6cea
